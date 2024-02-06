@@ -11,12 +11,14 @@ public class LightPotion {
 }
 */
 package potions;
+
 public class LightPotion extends Potion {
+
     public LightPotion() {
-        super("Light Potion", 10); // LightPotion has a constant value of 10
+        super();
+        this.name = "Light Potion";
+        this.value = 10;
     }
-    
-    // Additional behavior or attributes specific to LightPotion
 }
 
 
