@@ -16,8 +16,9 @@ public class LightPotion extends Potion {
 
     public LightPotion() {
         super();
-        this.name = "Light Potion";
-        this.value = 10;
+        this.setName("Light Potion");
+        this.setValue(10);
+        this.setDescription("small");
     }
 }
 

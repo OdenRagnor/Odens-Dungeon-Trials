@@ -14,5 +14,6 @@ public class MainClass {
         heavyPotion.setValue(40);
         value = heavyPotion.getValue();
         System.out.println("Updated Value: " + value);
+        System.out.printf("%s%n", heavyPotion);
     }
 }

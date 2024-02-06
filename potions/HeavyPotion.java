@@ -4,7 +4,8 @@ public class HeavyPotion extends Potion {
 
     public HeavyPotion() {
        super();
-       this.name = "Heavy Potion";
-       this.value = 30;
+       this.setName("Heavy Potion");
+       this.setValue(30);
+       this.setDescription("large");
     }
 }
