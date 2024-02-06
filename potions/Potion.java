@@ -3,10 +3,15 @@ package potions;
 public class Potion {
     protected String name;
     protected int value;
-    
+    /*
     public Potion(String name, int value) {
         this.name = name;
         this.value = value;
+    }
+    */
+    public Potion() {
+        name = "";
+        value = 0;
     }
     
     // Shared getter/setter methods
