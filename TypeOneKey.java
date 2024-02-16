@@ -3,7 +3,7 @@ public class TypeOneKey {
         for (int i = 0; i < line.length(); i++) {
             System.out.print(line.charAt(i));
             try {
-                Thread.sleep(25L);    // time interval in milliseconds
+                Thread.sleep(45L);    // time interval in milliseconds
             } catch (InterruptedException e) {
                 e.printStackTrace();
         }
